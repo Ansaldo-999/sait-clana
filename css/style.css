@@ -1,3 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* .container {
+    min-width: 320px;
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+} */
+/* main {
+    display: flex;
+    flex: 1 1 auto;
+} */
+ /* @media (max-width: 768px) {
+    body {
+        font-size: 20px; 
+    }
+
+    h1, h2 {
+        font-size: 30px;
+
+    p, a {
+        font-size: 24px; 
+    }
+
+    header .top-header .wrapper nav.left-nav ul li {
+        margin-left: 20px; 
+    }
+
+    header .top-header .wrapper {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .square {
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 18px; 
+    }
+
+    h1, h2 {
+        font-size: 24px; 
+    }
+
+    p, a {
+        font-size: 20px;
+    }
+
+    header .top-header .wrapper nav.left-nav ul li {
+        margin-left: 10px; 
+    }
+
+    .footer-col {
+        width: 100%;
+        text-align: center; 
+    }
+} */
+
+@media (min-width: 1200px) and (max-width:1429px) {
+   
+    ul {
+        flex-direction: column;
+    }
+    .wrapper {
+        width: auto;
+        height: auto;
+    }
+    .gallery {
+        width: 1200px;
+        height: auto;
+    }
+    .gallery-imgs {
+        width: 1200px;
+        height: auto;
+    }
+    .gallery-imgs img{
+    margin: 30px;
+    width: 10px;
+    height: 10px;
+    }
+    main img{
+        width: 1200px;
+        height: auto;
+    }
+   
+    .about-part img {
+          width: 1200px;
+        height: auto;
+        margin-left: -300px;
+    }
+    .box-wrapper-imgs {
+         width: 1200px;
+        height: auto;
+    }
+    .box-wrapper-imgs img {
+         width: 1200px;
+        height: auto;
+    }
+    .box-wrapper {
+         width: 1200px;
+        height: auto;
+    }
+    .image {
+        width: 1200px;
+        height: auto;
+       
+        margin-left: -100px;
+    }
+
+
+}
+    @media (min-width: 1430px) {
+    /* .page-heading {
+
+    } */
+    ul {
+        flex-direction: row;
+    }
+    .about-part img {
+          width: 1200px;
+        height: auto;
+       margin-left: -100px;
+    }
+    
+    }
+    @media (min-width: 1600px) {
+        .about-part img {
+            width: 1200px;
+            height: auto;
+            margin-left: 20px;
+        }
+    }
+    @media (min-width:768px) and (max-width: 1199px) {
+        ul {
+            margin-left: -70px;
+            flex-direction: column;
+        }
+        .wrapper {
+            width: auto;
+            height: auto;
+        }
+        .page-heading h1 {
+        font-weight: 700;
+        font-size: 30px;
+        }
+        .about-part img {
+            display: none;
+        }
+        main img {
+            width: 768px;
+            height: auto;
+        }
+    }
+
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        .rectangle {
+             margin-left: 50px;
+             margin-right: -320px;
+        }
+        
+        .rectangle img {
+            display: none;
+        }
+        .rectangle .text a {
+            font-size: 20px;
+        }
+        
+        .about-part img {
+            display: none;
+        }
+        ul {
+        flex-direction: column;
+        margin-left: -170px;
+        width: 100px;
+        }
+        .page-heading h1 {
+        font-weight: 700;
+        font-size: 30px;
+        }
+        .wrapper img {
+            width: 100px;
+            height: auto;
+        }
+        .square img {
+            display: none;
+        }
+        .square h1 {
+            font-weight: 100;
+            font-size: 20px;
+        }
+        .footer-col img{
+            width: 100px;
+            height: auto;
+            margin-left: -40px;
+        }
+        main img {
+            width: 320px;
+            height: auto;
+        }
+        table img {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+
 body {
     background-color: #323232;
     text-decoration: none;
@@ -115,6 +331,10 @@ header .top-header .wrapper nav.left-nav ul li a:hover {
     color: rgb(255, 0, 0);
     transition: all 300ms ease-in-out;
 }
+/* header {
+    flex-basis: 30%;
+} */
+
 .page-heading {
    
     min-height: 0px;
@@ -160,7 +380,7 @@ header .top-header .wrapper nav.left-nav ul li a:hover {
     margin-bottom: 98px;
 }
 .rectangle img {
-    max-width: 300px; 
+    width: 300px;
     margin-right: 15px; 
 }
 
