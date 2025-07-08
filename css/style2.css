@@ -141,7 +141,7 @@
         .about-part img {
             width: 1200px;
             height: auto;
-            margin-left: -70px;
+            margin-left: -340px;
         }
     }
     @media (min-width:768px) and (max-width: 1199px) {
